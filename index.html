@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VotingPlatform</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="lib/bootstrap/css/bootstrap-datepicker.min.css"
+      rel="stylesheet"
+    />
+    <link href="src/css/template3Desktop.css" rel="stylesheet" />
+    <link href="src/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="template3desktop">
+      <div class="s01header">
+        <div class="group3">
+            <img src="src/img/template-3desktop-mask.png" class="mask"/>
+            <img src="src/img/template-3desktop-oval-4.png" class="oval4"/>
+            <img src="src/img/template-3desktop-fill-1.png" class="fill1"/>
+        </div>
+        <div class="text">
+            <div class="loremipsumissimpl">
+               Voting Dapp
+            </div>
+            <div class="theworldisreadyf">
+                The world is ready for the change
+            </div>
+        </div>
+        <div class="navigationbar">
+            <div class="group29">                
+                <a href="#a-aboutus" class="aboutus">
+                    About 
+                </a>
+                <a href="#a-roadmap" class="roadmap">
+                    RoadMap
+                </a>             
+                <a href="#a-faq" class="faq">
+                    FAQ
+                </a>
+                
+            </div>
+        </div>
+      </div>
+      <main role="main">
+        <section class="jumbotron text-center" style="padding:0px;margin:0px;">
+          <div id="banner">
+            <button
+              type="button"
+              class="btn btn-primary startVote"
+              onclick="openAddVoteModal();"
+            >
+              Start A Vote
+            </button>
+          </div>
+        </section>
+        <div class="album py-5 bg-light">
+          <div class="container">
+            <div class="row voteContainer"></div>
+          </div>
+        </div>
+      </main>
+      <div class="a02about" id="a-aboutus">
+          <div class="intro1">
+              <img src="src/img/template-3desktop-rectangle-12.png" class="rectangle12"/>
+              <div class="group28">
+                  <img src="src/img/template-3desktop-asset-23x.png" class="asset23x"/>
+                  <img src="src/img/template-3desktop-asset-33x.png" class="asset33x"/>
+              </div>
+              <div class="group25">
+                  <div class="headlinewillbeher">   
+                     Challenge Solved
+                  </div>
+                  <div class="loremipsumissimpl">
+                     The blockchain first addresses the cost of trust, which can significantly reduce transaction costs. 
+                    In the voting field, the one-person-one-vote mechanism and the authority restrictions can be very effective in improving the trustworthiness of voting results.
+                  </div>
+              </div>
+          </div>
+          <div class="intro2">
+              <img src="src/img/template-3desktop-rectangle-12-copy.png" class="rectangle12copy"/>
+              <img src="src/img/template-3desktop-imag13x.png" class="imag13x"/>
+              <div class="group12">
+                  <div class="loremipsumissimpl">
+                     At present, the blockchain voting is still in the development stage, and it is not mature in the true sense and needs constant testing. Japan, Russia and Switzerland have conducted large-scale tests using the blockchain voting system. Future technological breakthroughs may bring the voting system to the national level.
+                  </div>
+                  <div class="headlinewillbehercopy">
+                      Future Development
+                  </div>
+              </div>
+          </div>
+          <div class="potokenintro">
+              <div class="blockchainque">
+                   Why does voting machanism use blockchain technology? <br />
+                   what can blockchain do? What can blockchain solve?
+              </div>
+              <div class="votingplatform">
+                   Voting Platform
+              </div>
+          </div>
+      </div>
+      <div class="a06roadmap" id="a-roadmap">
+          <img src="src/img/template-3desktop-bg.png" class="bg" />
+          <div class="roadmap03">
+              <img src="src/img/template-3desktop-path-8.png" class="path8" />
+              <div class="group12">
+                  <div class="group">
+                      <div class="rectangle5">
+                      </div>
+                      <div class="loremipsumissimpl1">
+                          Develope demo of election on the gannache and metamask <br /><br />refactor demo codes<br /><br /><br /><br />
+                      </div>
+                      <img src="src/img/template-3desktop-oval-3-copy-4@2x.png" class="oval3copy5" />
+                      <img src="src/img/template-3desktop-oval-3-copy-4@2x.png" class="oval3copy6" />
+                      <img src="src/img/template-3desktop-oval-3-copy-4@2x.png" class="oval3copy7" />
+                      <img src="src/img/template-3desktop-oval-3-copy-4@2x.png" class="oval3copy8" />
+                  </div>
+                  <div class="group8">
+                      <div class="group6">
+                          <div class="rectangle20">
+                          </div>
+                          <img src="src/img/template-3desktop-rectangle-20-copy-3.png" class="rectangle20copy3" />
+                          <div class="group4">
+                              <div class="stage01">
+                                  STAGE 01
+                              </div>
+                              <div class="u20221218months">
+                                  • January - Feburary
+                              </div>
+                          </div>
+                      </div>
+                      <div class="group7">
+                          <div class="group4copy">
+                              <div class="stage02">
+                                  STAGE 02
+                              </div>
+                              <div class="u20221836months">
+                                  • Feburary - March
+                              </div>
+                          </div>
+                          <div class="rectangle20copy">
+                          </div>
+                          <img src="src/img/template-3desktop-rectangle-20-copy-4.png" class="rectangle20copy4" />
+                      </div>
+                      <div class="group2">
+                          <div class="rectangle5copy">
+                          </div>
+                          <div class="loremipsumissimpl1">
+                            Choose neblus as main chain to deploy <br /><br /><br /><br />Refactor contract code to js file<br /><br /><br /><br />Refactor the index html file <br /><br />
+                          </div>
+                          <img src="src/img/template-3desktop-oval-3-copy-4@2x.png" class="oval3" />
+                          
+                          <img src="src/img/template-3desktop-oval-3-copy-4@2x.png" class="oval3copy3" />
+                         
+                          <img src="src/img/template-3desktop-oval-3-copy-4@2x.png" class="oval3copy4" />
+                      </div>
+                      <div class="group5">
+                          <div class="group4copy2">
+                              <div class="stage03">
+                                  STAGE 03
+                              </div>
+                              <div class="u202236monthsonwards">
+                                  • April
+                              </div>
+                          </div>
+                          <img src="src/img/template-3desktop-rectangle-20-copy-2.png" class="rectangle20copy2" />
+                      </div>
+                      <div class="group3">
+                          <div class="rectangle5copy2">
+                          </div>
+                          <div class="loremipsumissimpl1">
+                              Add one person one ticket limit function<br /><br />Add the maximum number of votes (ie reach the limit to end the vote) <br /><br />Solved the problem that the main network and the test network are out of sync and cannot be loaded.
+                          </div>
+                          <img src="src/img/template-3desktop-oval-3-copy-4@2x.png" class="oval3" />
+                          <img src="src/img/template-3desktop-oval-3-copy-4@2x.png" class="oval3copy9" />
+                          <img src="src/img/template-3desktop-oval-3-copy-4@2x.png" class="oval3copy10" />
+                      </div>
+                  </div>
+              </div>
+              <div class="loremipsumissimpl">
+                 Important technologies troubles and functions during development from demo to mainnet
+              </div>
+              <div class="preliminaryroadmap">
+                  Development Roadmap
+              </div>
+          </div>
+      </div>
+       <div class="a10faqs" id="a-faq">
+          <div class="group15">
+              <div class="group22">
+                  <div class="iforgotmypassword">
+                      How do voters vote?
+                  </div>
+                  <div class="plussquare">
+                      <div class="rectangle16">
+                      </div>
+                      <div class="rectanglepath">
+                      </div>
+                      <img src="src/img/template-3desktop-shape-12@2x.png" class="shape" />
+                      <img src="src/img/template-3desktop-shape-7@2x.png" class="shape1" />
+                  </div>
+                  <div class="rectangle10">
+                  </div>
+              </div>
+              <div class="group22copy2">
+                  <div class="doyoushareprivate">
+                      How can results be viewed?
+                  </div>
+                  <div class="plussquare">
+                      <div class="rectangle16">
+                      </div>
+                      <div class="rectanglepath">
+                      </div>
+                      <img src="src/img/template-3desktop-shape-12@2x.png" class="shape" />
+                      <img src="src/img/template-3desktop-shape-7@2x.png" class="shape1" />
+                  </div>
+                  <div class="rectangle10">
+                  </div>
+              </div>
+              <div class="group22copy3">
+                  <div class="howdoisubmitare">
+                      How do administrator modify a vote?
+                  </div>
+                  <div class="plussquare">
+                      <div class="rectangle16">
+                      </div>
+                      <div class="rectanglepath">
+                      </div>
+                      <img src="src/img/template-3desktop-shape-12@2x.png" class="shape" />
+                      <img src="src/img/template-3desktop-shape-7@2x.png" class="shape1" />
+                  </div>
+                  <div class="rectangle10">
+                  </div>
+              </div>
+              <div class="group22copy5">
+                  <div class="howdoisearchfor">
+                     Where is the result displayed?
+                  </div>
+                  <div class="plussquare">
+                      <div class="rectangle16">
+                      </div>
+                      <div class="rectanglepath">
+                      </div>
+                      <img src="src/img/template-3desktop-shape-12@2x.png" class="shape" />
+                      <img src="src/img/template-3desktop-shape-7@2x.png" class="shape1" />
+                  </div>
+                  <div class="rectangle10">
+                  </div>
+              </div>
+              <div class="group22copy4">
+                  <div class="whydoyouuseexper">
+                    How to become a candidate?
+                  </div>
+                  <div class="plussquare">
+                      <div class="rectangle16">
+                      </div>
+                      <div class="rectanglepath">
+                      </div>
+                      <img src="src/img/template-3desktop-shape-12@2x.png" class="shape" />
+                      <img src="src/img/template-3desktop-shape-7@2x.png" class="shape1" />
+                  </div>
+                  <div class="rectangle10">
+                  </div>
+              </div>
+              
+           
+                  <div class="group22copy">
+                  <div class="howmanyphotosofm">
+                     What is the detailed login/register processes of admin and voters?
+                  </div>
+                  <div class="plussquare">
+                      <div class="rectangle16">
+                      </div>
+                      <div class="rectanglepath">
+                      </div>
+                      <img src="src/img/template-3desktop-shape-7@2x.png" class="shape" />
+                  </div>
+                  <div class="loremipsumissimpl">
+                      A1
+                  </div>
+                  <div class="rectangle10">
+                  </div>
+             
+
+
+              </div>
+          </div>
+          <div class="group13">
+              <div class="howcanwehelpyou">
+                  How can we help you?
+              </div>
+              <div class="frequentlyaskedque">
+                  Frequently Asked Questions
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to Top</a>
+        </p>
+        <p>Wenjie Pan</p>
+
+      </div>
+    </footer>
+
+  <div class="votemodel">
+<!-- addVote Modal -->
+    
+    <div
+      class="modal fade"
+      id="newVote"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Start A Vote</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="needs-validation" novalidate>
+              <div class="form-group">
+                <label>Voting Tittle</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="votetitle"
+                  name="votetitle"
+                  aria-describedby="votetitleHelp"
+                  required
+                />
+                <div class="invalid-feedback">Please Input Voting Tittle!</div>
+              </div>
+              <div class="row" style="margin-bottom:10px;">
+                <div class="col-sm-2">
+                  <label style="line-height:38px;margin-bottom:0px;"
+                    >Begin Time</label
+                  >
+                </div>
+                <div
+                  class="datepicker input-group date col-sm-4"
+                  data-provide="datepicker"
+                >
+                  <input
+                    type="text"
+                    id="starttime"
+                    name="starttime"
+                    class="form-control"
+                    required
+                  />
+                  <div class="invalid-feedback">Please Choose The Begin Time Of Voting!</div>
+                  <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <label style="line-height:38px;margin-bottom:0px;"
+                    >End Time</label
+                  >
+                </div>
+                <div
+                  class="datepicker input-group date col-sm-4"
+                  data-provide="datepicker"
+                >
+                  <input
+                    type="text"
+                    id="endtime"
+                    name="endtime"
+                    class="form-control"
+                    required
+                  />
+                  <div class="invalid-feedback">Please Choose The End Time Of Voting!</div>
+                  <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div
+                  class="card-header"
+                  style="height:35px;line-height:35px;padding:0px 0px 0px 10px;"
+                >
+                  Option
+                </div>
+                <div
+                  class="card-body"
+                  id="itemContainer"
+                  style="padding-bottom:5px;"
+                >
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"
+                        >Candidate</span
+                      >
+                    </div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="item1-name"
+                      aria-label="Option"
+                      aria-describedby="basic-addon1"
+											placeholder="Please Input Candidate Name"
+                      required
+                    />
+										<input
+											type="text"
+                      class="form-control"
+											name="item1-link"
+											placeholder="Please Input Candidate Introduce link"
+										/>
+                    <div class="invalid-feedback">Please Input Option</div>
+                  </div>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"
+                        >Candidate</span
+                      >
+                    </div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="item2-name"
+                      aria-label="Option"
+                      aria-describedby="basic-addon1"
+											placeholder="Please Input Candidate Name"
+                      required
+										/>
+										<input
+											type="text"
+                      class="form-control"
+											name="item2-link"
+											placeholder="Please Input Candidate Introduce link"
+										/>
+                    <div class="invalid-feedback">Please Input Option</div>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-light"
+                  id="additem"
+                  style="margin:5px auto;"
+                >
+                  Add Options
+                </button>
+              </div>
+            </form>
+            <button
+              type="button"
+              id="addNewVote"
+              class="btn btn-dark mt-1"
+              style="width:100%;"
+            >
+              Issue Vote
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- addVote Modal end-->
+    <!-- vote Modal -->
+    <div
+      class="modal fade"
+      id="voteModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Participate In Vote</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="card" style="margin-top:10px;">
+              <div
+                class="card-header"
+                style="height:35px;line-height:35px;padding:0px 0px 0px 10px;"
+              >
+                Please Vote
+              </div>
+              <div class="card-body" id="keyContainer">
+                <form class="needs-validation1"></form>
+              </div>
+            </div>
+            <button
+              type="button"
+              id="addVoteToOpts"
+              class="btn btn-dark"
+              style="width:100%;"
+            >
+              Confirm Vote
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- vote Modal end-->
+    <!-- voteresult Modal -->
+    <div
+      class="modal fade"
+      id="voteresultModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Count of Voting</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="card" style="margin-top:10px;">
+              <div
+                class="card-header"
+                style="height:35px;line-height:35px;padding:0px 0px 0px 10px;"
+              >
+                Count of Voting
+              </div>
+              <div class="card-body" id="voteResultContainer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery.blockUI.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap-datepicker.min.js"></script>
+    <script src="src/js/nebulas.js"></script>
+    <script src="src/js/nebPay.js"></script>
+    <script src="src/js/config.js"></script>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+#banner {
+  height: 100px;
+  margin: 0px !important;
+  padding: 0px !important;
+  display: none;
+}
+.startVote {
+  position: relative;
+  top: 30px;
+}
+footer.text-muted {
+  padding-top: 15px;
+}
